@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Tution Classes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .moving-logo {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 flex justify-between items-center text-sm shadow-md">
+        <div class="flex items-center space-x-6 animate-fadeIn">
+            <span class="flex items-center space-x-2">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/003/720/476/small/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg" alt="Phone" class="h-5">
+                <span>+91 7389267008</span>
+            </span>
+            <span class="flex items-center space-x-2">
+                <img src="data:image/png;base64,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" alt="Mail" class="h-5">
+                <span>msandiya057@gmail.com</span>
+            </span>
+        </div>
+    </header>
+    
+    <nav class="bg-white shadow-lg py-5 px-8 flex justify-between items-center rounded-lg mt-2 mx-4 transition-all duration-300">
+        <div class="flex items-center space-x-4">
+            <video src="C:\\Users\\CWS\\Downloads\\logo.mp4" class="h-12 moving-logo" autoplay loop muted></video>
+            <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Harsh Tuition Classes</h1>
+        </div>
+        <div class="space-x-6 text-lg font-medium">
+            <a href="1st page.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Home</a>
+            <a href="Our Achievers.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Our Achievers</a>
+            <a href="courses.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Boards</a>
+            <a href="Other activities.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Other Activities</a>
+            <a href="Teacher.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Teacher</a>
+            <a href="Timings.html" class="text-gray-700 hover:text-blue-600 transition duration-300 hover:scale-105">Timings</a>
+        </div>
+    </nav>
+    
+    <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-xl rounded-lg mx-4 mt-6 animate-fadeIn">
+        <h2 class="text-6xl font-extrabold tracking-wide">Harsh Tuition Classes</h2>
+        <p class="mt-4 text-lg font-light">Empowering Young Minds, Building Bright Futures for Over 10 Years.</p>
+    </section> 
+    <section class="py-20 px-8 bg-gray-100">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+            <!-- Image Section -->
+            <div class="w-full md:w-1/2">
+                <img src="https://e-tuitions.com/assets/img/about-img-1.jpg" alt="Students" class="rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500">
+            </div>
+            
+            <!-- Content Section -->
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-green-500 font-semibold text-xl uppercase tracking-wide">About Us</h3>
+                <h2 class="text-5xl font-extrabold text-gray-800 leading-tight mt-3">Harsh Tuition Classes</h2>
+                <p class="mt-5 text-gray-700 text-lg leading-relaxed">We have been a trusted name in education for over a decade, providing quality tutoring from nursery to class 7. Our experienced faculty, innovative teaching methods, and commitment to student excellence make us stand out.</p>
+                
+                <ul class="mt-6 space-y-3 text-lg">
+                    <li class="flex items-center space-x-3"><span class="text-green-500 text-2xl">✔</span> <span>Expert Teachers</span></li>
+                    <li class="flex items-center space-x-3"><span class="text-green-500 text-2xl">✔</span> <span>Satisfied Parents</span></li>
+                    <li class="flex items-center space-x-3"><span class="text-green-500 text-2xl">✔</span> <span>Comprehensive Subjects</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-20 px-8 bg-gradient-to-r from-white-100 to-white-100 text-gray-900">
+        <h2 class="text-4xl font-extrabold text-center mb-12 tracking-wide text-gray-800 drop-shadow-lg">Our Impressive Stats</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300 ease-in-out text-center border-t-4 border-yellow-400">
+                <h2 class="text-5xl font-extrabold text-yellow-500 animate-pulse">100+</h2>
+                <p class="text-gray-700 mt-3 text-lg font-medium">Happy Parents</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300 ease-in-out text-center border-t-4 border-red-400">
+                <h2 class="text-5xl font-extrabold text-red-500 animate-pulse">2000+</h2>
+                <p class="text-gray-700 mt-3 text-lg font-medium">Classes Completed</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300 ease-in-out text-center border-t-4 border-green-400">
+                <h2 class="text-5xl font-extrabold text-green-500 animate-pulse">100%</h2>
+                <p class="text-gray-700 mt-3 text-lg font-medium">Satisfaction Rate</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300 ease-in-out text-center border-t-4 border-blue-400">
+                <h2 class="text-5xl font-extrabold text-blue-500 animate-pulse">1</h2>
+                <p class="text-gray-700 mt-3 text-lg font-medium">Certified Tutor</p>
+            </div>
+        </div>
+    </section>
+    <div class="container mx-auto py-16 px-6">
+        <h2 class="text-5xl font-extrabold text-center mb-12 text-gray-900 drop-shadow-lg tracking-wide uppercase">Available Boards</h2>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
+            
+            <!-- CBSE Board -->
+            <div class="relative bg-gradient-to-br from-blue-500 to-blue-800 rounded-3xl p-10 overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
+                <div class="flex flex-col h-full text-white">
+                    <h3 class="text-4xl font-bold">CBSE</h3>
+                    <p class="mt-4 opacity-90 text-lg">Central Board of Secondary Education<br>सेंट्रल बोर्ड ऑफ़ सेकेंडरी एजुकेशन</p>
+                    <a href="https://www.cbse.gov.in" class="mt-6 bg-white text-blue-800 font-bold py-3 px-8 rounded-full self-start shadow-lg hover:bg-blue-200 transition duration-300">Visit Now</a>
+                    <img src="https://www.cbse.gov.in/images//logo.png" alt="CBSE" class="absolute bottom-4 right-4 w-24 opacity-80 drop-shadow-lg">
+                </div>
+            </div>
+    
+            <!-- ICSE Board -->
+            <div class="relative bg-gradient-to-br from-orange-500 to-orange-800 rounded-3xl p-10 overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
+                <div class="flex flex-col h-full text-white">
+                    <h3 class="text-4xl font-bold">ICSE</h3>
+                    <p class="mt-4 opacity-90 text-lg">Indian Certificate of Secondary Education<br>इंडियन सर्टिफिकेट ऑफ सेकेंडरी एजुकेशन</p>
+                    <a href="https://cisce.org" class="mt-6 bg-white text-orange-800 font-bold py-3 px-8 rounded-full self-start shadow-lg hover:bg-orange-200 transition duration-300">Visit Now</a>
+                    <img src="https://cisce.org/wp-content/uploads/2022/09/logo-cisce.webp" alt="ICSE" class="absolute bottom-4 right-4 w-40 opacity-80 drop-shadow-lg">
+                </div>
+            </div>
+    
+            <!-- CGBSE Board -->
+            <div class="relative bg-gradient-to-br from-green-500 to-green-800 rounded-3xl p-10 overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
+                <div class="flex flex-col h-full text-white">
+                    <h3 class="text-4xl font-bold">CGBSE</h3>
+                    <p class="mt-4 opacity-90 text-lg">Chhattisgarh Board of Secondary Education<br>छत्तीसगढ़ माध्यमिक शिक्षा मंडल</p>
+                    <a href="https://cgbse.nic.in" class="mt-6 bg-white text-green-800 font-bold py-3 px-8 rounded-full self-start shadow-lg hover:bg-green-200 transition duration-300">Visit Now</a>
+                    <img src="C:\Users\CWS\Downloads\cgbse.png" alt="CGBSE" class="absolute bottom-4 right-4 w-24 opacity-80 drop-shadow-lg">
+                </div>
+            </div>
+    
+            <!-- Olympiads -->
+            <div class="relative bg-gradient-to-br from-yellow-500 to-yellow-800 rounded-3xl p-10 overflow-hidden shadow-2xl hover:scale-105 transition-transform duration-300">
+                <div class="flex flex-col h-full text-white">
+                    <h3 class="text-4xl font-bold">Olympiads</h3>
+                    <p class="mt-4 opacity-90 text-lg">Exciting academic competitions for students</p>
+                    <a href="https://www.sofworld.org" class="mt-6 bg-white text-yellow-800 font-bold py-3 px-8 rounded-full self-start shadow-lg hover:bg-yellow-200 transition duration-300">Visit Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <p>&copy; 2025 Harsh Tution Classes. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
